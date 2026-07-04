@@ -115,7 +115,7 @@ pip install pyyaml
 
 ---
 
-# 📁 Estructura del repositorio
+# Estructura del repositorio
 
 ```text
 Actividades-Parcial-II-230153/
@@ -129,7 +129,7 @@ Actividades-Parcial-II-230153/
 └── datos.yaml
 ```
 
-Cada carpeta corresponde a una actividad independiente desarrollada durante el parcial.
+Cada archivo corresponde a una actividad independiente desarrollada durante el parcial.
 
 ---
 
@@ -138,19 +138,21 @@ Cada carpeta corresponde a una actividad independiente desarrollada durante el p
 ## Ejecutar pruebas unitarias
 
 ```bash
-python -m unittest test_calculadora.py
+python -m unittest validar_ip.py
+python -m unittest test_validar_ip.py
+
 ```
 
 ## Ejecutar un programa que lea un archivo JSON
 
 ```bash
-python leer_json.py
+python datos.json 
 ```
 
 ## Ejecutar un programa que procese un archivo YAML
 
 ```bash
-python leer_yaml.py
+python datos.yaml 
 ```
 
 ## Verificar el estado del repositorio
@@ -183,7 +185,7 @@ git push origin main
 
 A continuación se muestra una imagen del repositorio visualizado desde GitHub.
 
-> ![alt text](<Captura de pantalla 2026-07-04 152835.png>)
+> ![alt text](<imagenes/repositorio.png>)
 
 ---
 
